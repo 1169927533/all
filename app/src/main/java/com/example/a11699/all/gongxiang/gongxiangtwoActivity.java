@@ -1,4 +1,4 @@
-package com.example.a11699.all;
+package com.example.a11699.all.gongxiang;
 
 import android.annotation.SuppressLint;
 import android.os.Build;
@@ -10,6 +10,8 @@ import android.support.v7.widget.CardView;
 import android.transition.Transition;
 import android.transition.TransitionInflater;
 import android.view.View;
+
+import com.example.a11699.all.R;
 
 public class gongxiangtwoActivity extends AppCompatActivity implements View.OnClickListener{
     FloatingActionButton fab;

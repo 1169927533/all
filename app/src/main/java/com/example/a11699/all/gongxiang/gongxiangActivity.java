@@ -1,4 +1,4 @@
-package com.example.a11699.all;
+package com.example.a11699.all.gongxiang;
 
 import android.app.ActivityOptions;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.transition.Slide;
 import android.view.View;
+
+import com.example.a11699.all.R;
 
 public class gongxiangActivity extends AppCompatActivity implements View.OnClickListener {
     FloatingActionButton floatingActionButton;

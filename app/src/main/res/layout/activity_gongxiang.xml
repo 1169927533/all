@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2fa881"
-    tools:context=".gongxiangActivity">
+    tools:context=".gongxiang.gongxiangActivity">
 
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"

@@ -12,5 +12,10 @@
     android:text="共享元素的动画效果"
     android:id="@+id/main_gongxiang"
     />
-
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="画折线"
+    android:id="@+id/drawZhexian"
+    />
 </LinearLayout>

@@ -6,8 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.a11699.all.gongxiang.gongxiangActivity;
+import com.example.a11699.all.zidingyiView.DrawZheLine;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private Button main_gongxiang;
+    private Button main_gongxiang,drawZhexian;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,7 +19,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     void initview(){
         main_gongxiang=findViewById(R.id.main_gongxiang);
+        drawZhexian=findViewById(R.id.drawZhexian);
         main_gongxiang.setOnClickListener(this);
+        drawZhexian.setOnClickListener(this);
     }
 
     @Override
@@ -25,6 +30,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.main_gongxiang:
                 Intent intent=new Intent(MainActivity.this,gongxiangActivity.class);
                 startActivity(intent);
+                break;
+            case R.id.drawZhexian:
+                Intent intent1=new Intent(MainActivity.this, DrawZheLine.class);
+                startActivity(intent1);
                 break;
         }
 

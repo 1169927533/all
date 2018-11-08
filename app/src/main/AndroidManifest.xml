@@ -16,12 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".gongxiangActivity" />
-        <activity android:name=".gongxiangtwoActivity"
+        <activity android:name=".gongxiang.gongxiangActivity" />
+        <activity android:name=".gongxiang.gongxiangtwoActivity"
             android:theme="@style/Translucent"
             >
-
         </activity>
+        <activity android:name=".zidingyiView.DrawZheLine"></activity>
     </application>
 
 </manifest>
