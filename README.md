@@ -3,12 +3,11 @@ Android的attrs.xml的用法
 http://www.cnblogs.com/yishujun/p/5555333.html
 
 注意用自定义的属性的时候，布局文件一定要写：
-
-![](file:///C:\Users\11699\AppData\Local\Temp\ksohtml\wpsBDC8.tmp.jpg)
+![enter image description here](file:///C:%5CUsers%5C11699%5CAppData%5CLocal%5CTemp%5Cksohtml%5CwpsBDC9.tmp.jpg)
 
 用的时候：
 
-![](file:///C:\Users\11699\AppData\Local\Temp\ksohtml\wpsBDC9.tmp.jpg)
+
 
 attrs.xml的用途是扩展自定义view的属性的，里面放的都是属性
 
