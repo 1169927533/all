@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".wujiaoxing.WuJiaoxing">
+
+    <com.example.a11699.all.wujiaoxing.CustomView
+        android:id="@+id/wujiao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:mR="100"
+        app:mr="50"
+        app:mIsFill="true"
+        app:mWuColor="#ff4400"
+        app:mWRaduis="10"
+        />
+</LinearLayout>

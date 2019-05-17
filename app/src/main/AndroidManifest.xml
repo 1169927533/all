@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.a11699.all">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,11 +19,38 @@
             </intent-filter>
         </activity>
         <activity android:name=".gongxiang.gongxiangActivity" />
-        <activity android:name=".gongxiang.gongxiangtwoActivity"
-            android:theme="@style/Translucent"
-            >
-        </activity>
-        <activity android:name=".zidingyiView.DrawZheLine"></activity>
+        <activity
+            android:name=".gongxiang.gongxiangtwoActivity"
+            android:theme="@style/Translucent" />
+        <activity android:name=".zidingyiView.DrawZheLine" />
+        <activity android:name=".fragment.AnimaFragment" />
+        <activity android:name=".SurfaceView.SurfaceView" />
+        <activity android:name=".CustomLayoutManger.customLayoutManagerActivity" />
+        <activity android:name=".Huabiaoge.Huabiaoge" />
+        <activity android:name=".dialogment.Main2Activity" />
+        <activity android:name=".zidingyi_view_study.activity.study_zidingyi_view" />
+        <activity android:name=".huizhixiaozhu.activity.Hua_pig" />
+        <activity android:name=".mvpstudy.easy_mvp.view.UserActivity" />
+        <activity android:name=".mvpstudy.weather_mvp.ui.activity.WeatherActivity" />
+        <activity android:name=".wulianwang.Wuliwang_Activity" />
+        <activity android:name=".chouti.ChoutiActivity" />
+        <activity android:name=".youhuafanhui.YouhuaBackActivity" />
+        <activity
+            android:name=".youhuafanhui.NextActivity"
+            android:theme="@style/JK.SwipeBack.Transparent.Theme" />
+        <activity android:name=".shengsuo.activity.Xiaoguo_1" />
+        <activity android:name=".shengsuo.activity.activity.Shengsuo_1" />
+        <activity android:name=".shengsuo.activity.activity.Shensuo_2" />
+        <activity android:name=".wangyi.Wangyi" />
+        <activity android:name=".beisaier.huaban.BeiSaiEr_Activity" />
+        <activity android:name=".beisaier.shoushi_view.Bei_two" />
+        <activity android:name=".beisaier.lujingjiazaidonghua.LuJin_Donghua" />
+        <activity android:name=".bolang.bolang.Bolang_Activity" />
+        <activity android:name=".zidingyi_view_study.save_layer_study.Savalayer" />
+        <activity android:name=".zhizhuwang.ZhiZhuwang" />
+        <activity android:name=".shuibowen.ShuiBo" />
+        <activity android:name=".region.Study_region" />
+        <activity android:name=".wujiaoxing.WuJiaoxing"></activity>
     </application>
 
 </manifest>

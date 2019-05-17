@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">all</string>
+
+    <string name="behavior_sample_title">com.example.a11699.all.shengsuo.activity.util.Behavior_01</string>
+    <string name="behavior_sample_header">com.example.a11699.all.shengsuo.activity.util.SampleHeaderBehavior</string>
+    <string name="behavior_recyclerview">com.example.a11699.all.shengsuo.activity.util.RecyclerViewBehavior</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="paintbiaoge">绘制表格</string>
 </resources>

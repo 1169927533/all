@@ -3,19 +3,145 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
-<Button
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="共享元素的动画效果"
-    android:id="@+id/main_gongxiang"
-    />
-<Button
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="画折线"
-    android:id="@+id/drawZhexian"
-    />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/main_gongxiang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="共享元素的动画效果" />
+
+            <Button
+                android:id="@+id/drawZhexian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="画折线" />
+
+            <Button
+                android:id="@+id/studyFragent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fragment学习" />
+
+            <Button
+                android:id="@+id/main_sufaceview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SufaceView学习" />
+
+            <Button
+                android:id="@+id/main_recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义LayoutManager实现不同效果的Recycleview显示样式" />
+
+            <Button
+                android:id="@+id/main_paintbiaoge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/paintbiaoge" />
+
+            <Button
+                android:id="@+id/dialogment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DialogFragment的使用" />
+
+            <Button
+                android:id="@+id/ziding_btn_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义view的学习"></Button>
+
+            <Button
+                android:id="@+id/pait_pig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制小猪佩奇" />
+
+            <Button
+                android:id="@+id/mvp_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MVP模式的学习" />
+
+            <Button
+                android:id="@+id/wulianwang_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="物联网学习" />
+
+            <Button
+                android:id="@+id/chouti_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="抽屉公告" />
+
+            <Button
+                android:id="@+id/youhuafanhui_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="右滑返回" />
+
+            <Button
+                android:id="@+id/shengsuo_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android的伸缩效果" />
+
+            <Button
+                android:id="@+id/shengsuo_donghua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="网易云效果" />
+
+            <Button
+                android:id="@+id/shengsuo_beisai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="贝塞尔曲线" />
+
+            <Button
+                android:id="@+id/bolang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="波浪" />
+            <Button
+                android:id="@+id/save_layer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SaveLayer学习" />
+            <Button
+                android:id="@+id/zhizhuwabg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="蜘蛛网" />
+            <Button
+                android:id="@+id/shuibowen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="水波纹" />
+            <Button
+                android:id="@+id/region"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Region学习" />
+            <Button
+                android:id="@+id/wujiaoxing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="五角星" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
