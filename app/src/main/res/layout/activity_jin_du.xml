@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jindu.JinDuActivity">
+
+    <com.example.a11699.all.jindu.ScaleProcessView
+        android:id="@+id/spv"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        app:isNeedAnim="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:nearOverText="即将售罄"
+        app:overText="已经售罄">
+
+    </com.example.a11699.all.jindu.ScaleProcessView>
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:max="100"
+        app:layout_constraintTop_toBottomOf="@+id/spv"></SeekBar>
+</android.support.constraint.ConstraintLayout>

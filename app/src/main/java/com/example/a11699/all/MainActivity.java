@@ -10,15 +10,19 @@ import android.widget.Button;
 import com.example.a11699.all.CustomLayoutManger.customLayoutManagerActivity;
 import com.example.a11699.all.Huabiaoge.Huabiaoge;
 import com.example.a11699.all.SurfaceView.SurfaceView;
+import com.example.a11699.all.backTan.BackTanActivity;
 import com.example.a11699.all.beisaier.shoushi_view.Bei_two;
 import com.example.a11699.all.bolang.bolang.Bolang_Activity;
+import com.example.a11699.all.buguizeliudongbolang.BoLangActivity;
 import com.example.a11699.all.chouti.ChoutiActivity;
 import com.example.a11699.all.dialogment.Main2Activity;
 import com.example.a11699.all.fragment.AnimaFragment;
 import com.example.a11699.all.gongxiang.gongxiangActivity;
 import com.example.a11699.all.huizhixiaozhu.activity.Hua_pig;
+import com.example.a11699.all.jindu.JinDuActivity;
+import com.example.a11699.all.liubuju.LiuActivity;
 import com.example.a11699.all.mvpstudy.easy_mvp.view.UserActivity;
-import com.example.a11699.all.region.Region_View;
+import com.example.a11699.all.myviewpage.MyViewpagerActivity;
 import com.example.a11699.all.region.Study_region;
 import com.example.a11699.all.shengsuo.activity.Xiaoguo_1;
 import com.example.a11699.all.shuibowen.ShuiBo;
@@ -33,7 +37,8 @@ import com.example.a11699.all.zidingyi_view_study.save_layer_study.Savalayer;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button wulianwang_btn, mvp_btn, pait_pig, ziding_btn_view, main_gongxiang, drawZhexian, studyFragent, main_sufaceview, main_recycleview, main_paintbiaoge, dialogment;
-    private Button chouti_btn,wujiaoxing,region,shuibowen,zhizhuwabg,save_layer, youhuafanhui_btn,shengsuo_btn,shengsuo_donghua,shengsuo_beisai,bolang;
+    private Button btn_backtan, chouti_btn, wujiaoxing, region, shuibowen, zhizhuwabg, save_layer, youhuafanhui_btn, shengsuo_btn, shengsuo_donghua, shengsuo_beisai, bolang;
+    private Button btn_mypagestudy,btn_jindutiao, btn_bolang,btn_liu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,17 +59,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         save_layer = findViewById(R.id.save_layer);
         pait_pig = findViewById(R.id.pait_pig);
         zhizhuwabg = findViewById(R.id.zhizhuwabg);
-        wujiaoxing= findViewById(R.id.wujiaoxing);
+        wujiaoxing = findViewById(R.id.wujiaoxing);
         region = findViewById(R.id.region);
         mvp_btn = findViewById(R.id.mvp_btn);
         wulianwang_btn = findViewById(R.id.wulianwang_btn);
         chouti_btn = findViewById(R.id.chouti_btn);
-        bolang = findViewById(R.id.bolang);
+        btn_bolang = findViewById(R.id.bolang);
+        btn_mypagestudy = findViewById(R.id.btn_mypagestudy);
         youhuafanhui_btn = findViewById(R.id.youhuafanhui_btn);
         shengsuo_btn = findViewById(R.id.shengsuo_btn);
         shengsuo_donghua = findViewById(R.id.shengsuo_donghua);
         shengsuo_beisai = findViewById(R.id.shengsuo_beisai);
+        btn_liu = findViewById(R.id.btn_liu);
         shuibowen = findViewById(R.id.shuibowen);
+        btn_backtan = findViewById(R.id.btn_backtan);
+        btn_jindutiao = findViewById(R.id.btn_jindutiao);
+        btn_bolang = findViewById(R.id.btn_bolang);
         shuibowen.setOnClickListener(this);
         main_gongxiang.setOnClickListener(this);
         shengsuo_btn.setOnClickListener(this);
@@ -81,13 +91,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         chouti_btn.setOnClickListener(this);
         youhuafanhui_btn.setOnClickListener(this);
         shengsuo_donghua.setOnClickListener(this);
+        btn_backtan.setOnClickListener(this);
         shengsuo_beisai.setOnClickListener(this);
-        bolang.setOnClickListener(this);
+        btn_bolang.setOnClickListener(this);
+        btn_bolang.setOnClickListener(this);
         save_layer.setOnClickListener(this);
         zhizhuwabg.setOnClickListener(this);
         region.setOnClickListener(this);
         wujiaoxing.setOnClickListener(this);
+        btn_mypagestudy.setOnClickListener(this);
         SlidingPaneLayout slidingPaneLayout = new SlidingPaneLayout(this);
+        btn_jindutiao.setOnClickListener(this);
+        btn_liu.setOnClickListener(this);
 
     }
 
@@ -182,6 +197,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent21 = new Intent(MainActivity.this, WuJiaoxing.class);
                 startActivity(intent21);
                 break;
+            case R.id.btn_backtan:
+                //回弹效果
+                Intent intent22 = new Intent(MainActivity.this, BackTanActivity.class);
+                startActivity(intent22);
+            case R.id.btn_mypagestudy:
+                Intent intent23  = new Intent(MainActivity.this, MyViewpagerActivity.class);
+                startActivity(intent23);
+                break;
+            case R.id.btn_jindutiao:
+                Intent intent24  = new Intent(MainActivity.this, JinDuActivity.class);
+                startActivity(intent24);
+                break;
+            case R.id.btn_bolang:
+                Intent intent25 = new Intent(MainActivity.this, BoLangActivity.class);
+                startActivity(intent25);
+                break;
+            case R.id.btn_liu:
+                Intent intent26 = new Intent(MainActivity.this, LiuActivity.class);
+                startActivity(intent26);
+                break;
+
         }
 
     }
