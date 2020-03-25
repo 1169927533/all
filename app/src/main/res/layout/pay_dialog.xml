@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#66000000">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_above="@+id/dsd"
+        android:background="@drawable/live_recharge_img_six"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/dsd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/close"
+            app:layout_constraintBottom_toBottomOf="@+id/tv1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv1"></ImageView>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="充值"
+            android:textColor="#ff5b5b5b"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"></TextView>
+
+        <com.example.a11699.all.qiyu.customview.PayFlowLayout
+            android:id="@+id/flowlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv1"
+            tools:layout_editor_absoluteX="0dp">
+
+
+
+
+        </com.example.a11699.all.qiyu.customview.PayFlowLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="12dp"
+            android:id="@+id/tv_showinformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/pay_bottombg"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            app:layout_constraintTop_toBottomOf="@+id/flowlayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="输入文本"
+                android:textColor="#ff5b5b5b"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_infor"
+                android:layout_width="108dp"
+                android:layout_height="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:text="6000金币、6点经验"
+                android:textColor="#ffe64336"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_below="@+id/tv_infor"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text="新贵"
+                android:textColor="#ffe64336"
+                android:textSize="12dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_empty"
+            android:layout_width="12dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_showinformation"></View>
+
+        <Button
+            android:id="@+id/btn_wpay"
+            android:layout_width="159dp"
+            android:layout_height="50dp"
+            android:background="@drawable/live_recharge_btn_wechat"
+            app:layout_constraintLeft_toLeftOf="@+id/tv_showinformation"
+            app:layout_constraintTop_toBottomOf="@+id/tv_showinformation"
+            app:layout_constraintTop_toTopOf="@+id/view_empty"></Button>
+
+        <Button
+            android:id="@+id/btn_bpay"
+            android:layout_width="159dp"
+            android:layout_height="50dp"
+
+            android:background="@drawable/live_recharge_btn_alipay"
+            android:textSize="14dp"
+            app:layout_constraintRight_toRightOf="@+id/tv_showinformation"
+            app:layout_constraintTop_toBottomOf="@+id/tv_showinformation"
+            app:layout_constraintTop_toTopOf="@+id/view_empty"></Button>
+
+        <TextView
+            android:id="@+id/tv_yu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:layout_marginBottom="14dp"
+            android:text="余额："
+            android:textColor="#ff5b5b5b"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@id/btn_wpay"
+            app:layout_constraintTop_toBottomOf="@+id/btn_bpay"></TextView>
+
+        <TextView
+            android:id="@+id/tv_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:text="1111"
+            android:textColor="#FF4444"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/tv_yu"></TextView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="110dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginBottom="14dp"
+            android:text="充值问题，请联系客服"
+            android:textColor="#ff9b9b9b"
+            android:textSize="11dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="@+id/btn_bpay"
+            app:layout_constraintTop_toBottomOf="@+id/btn_bpay" />
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>

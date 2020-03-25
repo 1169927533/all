@@ -37,6 +37,20 @@
         <item name="android:displayOptions" tools:ignore="NewApi">showCustom</item>
         <item name="android:height">?actionBarSize</item>
     </style>
+    <declare-styleable name="SpreadView">
+        <!--中心圆颜色-->
+        <attr name="spread_center_color" format="color" />
+        <!--中心圆半径-->
+        <attr name="spread_radius" format="integer" />
+        <!--扩散圆颜色-->
+        <attr name="spread_spread_color" format="color" />
+        <!--扩散间距-->
+        <attr name="spread_distance" format="integer" />
+        <!--扩散最大半径-->
+        <attr name="spread_max_radius" format="integer" />
+        <!--扩散延迟间隔-->
+        <attr name="spread_delay_milliseconds" format="integer" />
+    </declare-styleable>
     <style name="MyDialog" parent="android:Theme.Dialog">
         <!-- 背景颜色及透明程度 -->
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -52,6 +66,20 @@
         <item name="android:backgroundDimAmount">0.5</item>
 
     </style>
+
+    <style name="Transparent" parent="AppTheme.TransStatus">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.TransStatus">
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="lollipop">false</item>
+    </style>
+
 
 
 </resources>

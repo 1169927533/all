@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,6 +8,7 @@
 
 
     <LinearLayout
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -20,7 +20,7 @@
             app:cColor="#ff0000"
             app:cDensity="10"
             app:cIsAlpha="true"
-            app:cIsFill="true"/>
+            app:cIsFill="true" />
 
         <com.example.a11699.all.shuibowen.RippleView
             android:layout_width="120dp"
@@ -28,7 +28,7 @@
             app:cColor="#00ff00"
             app:cDensity="10"
             app:cIsAlpha="true"
-            app:cIsFill="true"/>
+            app:cIsFill="true" />
 
         <com.example.a11699.all.shuibowen.RippleView
             android:layout_width="120dp"
@@ -36,10 +36,11 @@
             app:cColor="#0000ff"
             app:cDensity="10"
             app:cIsAlpha="true"
-            app:cIsFill="true"/>
+            app:cIsFill="true" />
     </LinearLayout>
 
     <LinearLayout
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -51,24 +52,25 @@
             android:layout_height="120dp"
             app:cColor="#ff0000"
             app:cDensity="8"
-            app:cIsAlpha="false"/>
+            app:cIsAlpha="false" />
 
         <com.example.a11699.all.shuibowen.RippleView
             android:layout_width="120dp"
             android:layout_height="120dp"
             app:cColor="#00ff00"
             app:cDensity="8"
-            app:cIsAlpha="false"/>
+            app:cIsAlpha="false" />
 
         <com.example.a11699.all.shuibowen.RippleView
             android:layout_width="120dp"
             android:layout_height="120dp"
             app:cColor="#0000ff"
             app:cDensity="8"
-            app:cIsAlpha="false"/>
+            app:cIsAlpha="false" />
     </LinearLayout>
 
     <LinearLayout
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -79,24 +81,25 @@
             android:layout_height="120dp"
             app:cColor="#ff0000"
             app:cDensity="5"
-            app:cIsAlpha="true"/>
+            app:cIsAlpha="true" />
 
         <com.example.a11699.all.shuibowen.RippleView
             android:layout_width="120dp"
             android:layout_height="120dp"
             app:cColor="#00ff00"
             app:cDensity="5"
-            app:cIsAlpha="true"/>
+            app:cIsAlpha="true" />
 
         <com.example.a11699.all.shuibowen.RippleView
             android:layout_width="120dp"
             android:layout_height="120dp"
             app:cColor="#0000ff"
             app:cDensity="5"
-            app:cIsAlpha="true"/>
+            app:cIsAlpha="true" />
     </LinearLayout>
 
     <LinearLayout
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -108,7 +111,7 @@
             app:cColor="#ff0000"
             app:cDensity="1"
             app:cIsAlpha="true"
-            app:cSpeed="3"/>
+            app:cSpeed="3" />
 
         <com.example.a11699.all.shuibowen.RippleView
             android:layout_width="120dp"
@@ -116,7 +119,7 @@
             app:cColor="#00ff00"
             app:cDensity="1"
             app:cIsAlpha="true"
-            app:cSpeed="3"/>
+            app:cSpeed="3" />
 
         <com.example.a11699.all.shuibowen.RippleView
             android:layout_width="120dp"
@@ -124,8 +127,20 @@
             app:cColor="#0000ff"
             app:cDensity="1"
             app:cIsAlpha="true"
-            app:cSpeed="3"/>
+            app:cSpeed="3" />
     </LinearLayout>
+
+    <com.example.a11699.all.shuibowen.RadarView
+        android:visibility="gone"
+        android:id="@+id/radarView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        ></com.example.a11699.all.shuibowen.RadarView>
+
+    <com.example.a11699.all.shuibowen.XuxianView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"></com.example.a11699.all.shuibowen.XuxianView>
 
 
 </LinearLayout>

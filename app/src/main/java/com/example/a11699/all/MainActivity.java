@@ -23,6 +23,7 @@ import com.example.a11699.all.jindu.JinDuActivity;
 import com.example.a11699.all.liubuju.LiuActivity;
 import com.example.a11699.all.mvpstudy.easy_mvp.view.UserActivity;
 import com.example.a11699.all.myviewpage.MyViewpagerActivity;
+import com.example.a11699.all.qiyu.PayDialogFragment;
 import com.example.a11699.all.region.Study_region;
 import com.example.a11699.all.shengsuo.activity.Xiaoguo_1;
 import com.example.a11699.all.shuibowen.ShuiBo;
@@ -38,7 +39,7 @@ import com.example.a11699.all.zidingyi_view_study.save_layer_study.Savalayer;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button wulianwang_btn, mvp_btn, pait_pig, ziding_btn_view, main_gongxiang, drawZhexian, studyFragent, main_sufaceview, main_recycleview, main_paintbiaoge, dialogment;
     private Button btn_backtan, chouti_btn, wujiaoxing, region, shuibowen, zhizhuwabg, save_layer, youhuafanhui_btn, shengsuo_btn, shengsuo_donghua, shengsuo_beisai, bolang;
-    private Button btn_mypagestudy,btn_jindutiao, btn_bolang,btn_liu;
+    private Button btn_mypagestudy,btn_jindutiao, btn_bolang,btn_liu,btn_pay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +73,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         shengsuo_beisai = findViewById(R.id.shengsuo_beisai);
         btn_liu = findViewById(R.id.btn_liu);
         shuibowen = findViewById(R.id.shuibowen);
+        btn_pay = findViewById(R.id.btn_pay);
         btn_backtan = findViewById(R.id.btn_backtan);
         btn_jindutiao = findViewById(R.id.btn_jindutiao);
         btn_bolang = findViewById(R.id.btn_bolang);
@@ -103,6 +105,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         SlidingPaneLayout slidingPaneLayout = new SlidingPaneLayout(this);
         btn_jindutiao.setOnClickListener(this);
         btn_liu.setOnClickListener(this);
+        btn_pay.setOnClickListener(this);
 
     }
 
@@ -216,6 +219,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_liu:
                 Intent intent26 = new Intent(MainActivity.this, LiuActivity.class);
                 startActivity(intent26);
+                break;
+            case R.id.btn_pay:
+                Intent intent27 = new Intent(MainActivity.this, PayDialogFragment.class);
+                startActivity(intent27);
                 break;
 
         }

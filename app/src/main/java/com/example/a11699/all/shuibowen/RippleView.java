@@ -144,12 +144,6 @@ public class RippleView extends View {
         invalidate();
         canvas.restore();
     }
-    void d(int a){
-
-    }
-    void d(String c){
-
-    }
     /**
      * 圆到对角线
      *

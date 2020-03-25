@@ -179,6 +179,12 @@
                 android:layout_height="wrap_content"
                 android:text="自定义流式布局"
                 ></Button>
+            <Button
+                android:id="@+id/btn_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="奇遇支付弹框"
+                ></Button>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

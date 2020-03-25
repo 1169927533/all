@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".liubuju.LiuActivity"></activity>
+        <activity android:name=".qiyu.PayDialogFragment"></activity>
+        <activity android:name=".liubuju.LiuActivity" />
         <activity android:name=".buguizeliudongbolang.BoLangActivity" />
         <activity android:name=".jindu.JinDuActivity" />
         <activity android:name=".myviewpage.MyViewpagerActivity" />

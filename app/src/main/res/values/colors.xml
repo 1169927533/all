@@ -6,4 +6,7 @@
     <color name="colorPink">#D02090</color>
     <color name="transparent">#00000000</color>
     <color name="light_blue">#97FFFF</color>
+    <color name="color_6c00ff">#6c00ff</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_676BBC">#676BBC</color>
 </resources>
