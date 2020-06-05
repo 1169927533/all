@@ -1,11 +1,10 @@
-package com.example.a11699.all.qiyu
+package com.example.a11699.all.qiyu.paydialog
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.example.a11699.all.R
-import com.example.a11699.all.qiyu.dialogFragment.PayBottomDialogFragment
+import com.example.a11699.all.qiyu.paydialog.dialogFragment.PayBottomDialogFragment
 import kotlinx.android.synthetic.main.activity_pay_dialog_fragment.*
-
 class PayDialogFragment : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

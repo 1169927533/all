@@ -31,5 +31,9 @@
         <attr name="textSize" format="dimension" />
         <attr name="isNeedAnim" format="boolean" />
     </declare-styleable>
-
+    <declare-styleable name="pieCharts">
+        <attr name="circleStrokeWidth" format="dimension" />
+        <attr name="pieLineColor" format="color" />
+        <attr name="backColor" format="color" />
+    </declare-styleable>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.a11699.all.qiyu.dialogFragment;
+package com.example.a11699.all.qiyu.paydialog.dialogFragment;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -14,13 +14,11 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.example.a11699.all.R;
-import com.example.a11699.all.liubuju.customview.FlowLayout;
-import com.example.a11699.all.qiyu.AmountButtonView;
-import com.example.a11699.all.qiyu.bean.GoldBean;
-import com.example.a11699.all.qiyu.customview.PayFlowLayout;
+import com.example.a11699.all.qiyu.paydialog.AmountButtonView;
+import com.example.a11699.all.qiyu.paydialog.bean.GoldBean;
+import com.example.a11699.all.qiyu.paydialog.customview.PayFlowLayout;
 
 /**
  * Create time 2020/3/24
@@ -34,7 +32,7 @@ public class PayBottomDialogFragment extends DialogFragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setStyle(STYLE_NO_FRAME, R.style.Transparent);
+        setStyle(STYLE_NO_TITLE, R.style.Transparent);
     }
 
     //在onCreateDialog里设置dialog监听函数，如对返回键的监听。

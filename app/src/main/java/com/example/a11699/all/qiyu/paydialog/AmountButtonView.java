@@ -1,20 +1,14 @@
-package com.example.a11699.all.qiyu;
+package com.example.a11699.all.qiyu.paydialog;
 
 import android.content.Context;
-import android.graphics.Canvas;
-import android.support.annotation.Nullable;
 import android.support.constraint.ConstraintLayout;
-import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.a11699.all.R;
-import com.example.a11699.all.qiyu.bean.GoldBean;
+import com.example.a11699.all.qiyu.paydialog.bean.GoldBean;
 
 /**
  * Create time 2020/3/24

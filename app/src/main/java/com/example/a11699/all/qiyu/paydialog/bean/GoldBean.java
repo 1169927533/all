@@ -1,4 +1,4 @@
-package com.example.a11699.all.qiyu.bean;
+package com.example.a11699.all.qiyu.paydialog.bean;
 
 /**
  * Create time 2020/3/25

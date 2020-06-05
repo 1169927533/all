@@ -43,17 +43,14 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"></TextView>
 
-        <com.example.a11699.all.qiyu.customview.PayFlowLayout
+        <com.example.a11699.all.qiyu.paydialog.customview.PayFlowLayout
             android:id="@+id/flowlayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@+id/tv1"
             tools:layout_editor_absoluteX="0dp">
 
-
-
-
-        </com.example.a11699.all.qiyu.customview.PayFlowLayout>
+        </com.example.a11699.all.qiyu.paydialog.customview.PayFlowLayout>
 
         <RelativeLayout
             android:layout_marginTop="12dp"

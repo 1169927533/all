@@ -1,10 +1,9 @@
-package com.example.a11699.all.qiyu.customview;
+package com.example.a11699.all.qiyu.paydialog.customview;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 import java.util.List;

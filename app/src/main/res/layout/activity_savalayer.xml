@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".zidingyi_view_study.save_layer_study.Savalayer">
-<com.example.a11699.all.zidingyi_view_study.save_layer_study.XfermodeView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+
+    <com.example.a11699.all.zidingyi_view_study.save_layer_study.XfermodeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>

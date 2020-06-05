@@ -81,5 +81,8 @@
     </style>
 
 
-
+    <!-- 带动画的底部弹出dialog-->
+    <style name="BottomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_scale_big</item>
+    </style>
 </resources>

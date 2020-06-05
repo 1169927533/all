@@ -128,10 +128,6 @@ public class FlowLayout extends ViewGroup {
         return new MarginLayoutParams(getContext(), attributeSet);//这里只关注MarginLayoutParams
     }
 
-//    @Override为什么上面的方法不提示？只有下面的方法可选择
-//    protected LayoutParams generateLayoutParams(LayoutParams p) {
-//        return super.generateLayoutParams(p);
-//    }
 
     /**
      * 以行来存储所有的View

@@ -3,6 +3,8 @@
     package="com.example.a11699.all">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +13,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".qiyu.PayDialogFragment"></activity>
+        <activity android:name=".myprocassbar.MyProcessBarActivity"></activity>
+        <activity android:name=".loukong.LouKongActivity" />
+        <activity android:name=".videoplay.MyVideoPlayer" />
+        <activity android:name=".layoutanimation.LayoutAnimationStudy" />
+        <activity
+            android:name=".voiceband.VoiceBandActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".contextstudy.ContextActivity" />
+        <activity android:name=".qiyu.getdialog.GetGoodsActivity" />
+        <activity android:name=".yuanbingtongjitu.YuanBingTongJiTu" />
+        <activity android:name=".qiyu.paydialog.PayDialogFragment" />
         <activity android:name=".liubuju.LiuActivity" />
         <activity android:name=".buguizeliudongbolang.BoLangActivity" />
         <activity android:name=".jindu.JinDuActivity" />

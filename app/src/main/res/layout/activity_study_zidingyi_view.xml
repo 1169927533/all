@@ -6,4 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".zidingyi_view_study.activity.study_zidingyi_view">
 
+    <com.example.a11699.all.zidingyi_view_study.activity.customview.TabView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.example.a11699.all.zidingyi_view_study.activity.customview.TabView>
 </android.support.constraint.ConstraintLayout>

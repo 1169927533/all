@@ -164,26 +164,74 @@
                 android:id="@+id/btn_jindutiao"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="进度条"
-                ></Button>
+                android:text="进度条"></Button>
 
             <Button
                 android:id="@+id/btn_bolang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="波浪"
-                ></Button>
+                android:text="波浪"></Button>
+
             <Button
                 android:id="@+id/btn_liu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="自定义流式布局"
-                ></Button>
+                android:text="自定义流式布局"></Button>
+
             <Button
                 android:id="@+id/btn_pay"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="奇遇支付弹框"
+                android:text="奇遇支付弹框"></Button>
+
+            <Button
+                android:id="@+id/btn_aoyun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="奥运五环"></Button>
+
+            <Button
+                android:id="@+id/btn_yuanbingtojitu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义圆饼统计图"></Button>
+            <Button
+                android:id="@+id/btn_getgoods"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="奇遇获取礼品弹框"></Button>
+            <Button
+                android:id="@+id/btn_context"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="context测试"></Button>
+            <Button
+                android:id="@+id/btn_voiceband"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="音频开发"></Button>
+            <Button
+                android:id="@+id/btn_layoutanimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LayoutAnimal动画"></Button>
+            <Button
+                android:id="@+id/btn_voiceband2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="音视频开发"
+                ></Button>
+            <Button
+                android:id="@+id/btn_yindao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="引导界面功能实现"
+                ></Button>
+            <Button
+                android:id="@+id/btn_myprocessbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义进度条"
                 ></Button>
         </LinearLayout>
     </ScrollView>
