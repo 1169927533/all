@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".myprocassbar.MyProcessBarActivity">
 
+    <com.example.a11699.all.myprocassbar.MyProcessBarView
+        android:id="@+id/cpv_one"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

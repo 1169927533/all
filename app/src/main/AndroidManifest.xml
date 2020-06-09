@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".myprocassbar.MyProcessBarActivity"></activity>
+        <activity android:name=".eventbusstudy.EventBusStydy"></activity>
+        <activity android:name=".myprocassbar.MyProcessBarActivity" />
         <activity android:name=".loukong.LouKongActivity" />
         <activity android:name=".videoplay.MyVideoPlayer" />
         <activity android:name=".layoutanimation.LayoutAnimationStudy" />
